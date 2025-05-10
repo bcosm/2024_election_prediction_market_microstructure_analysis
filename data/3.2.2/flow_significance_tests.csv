@@ -1,0 +1,17 @@
+market,window_length_cfg,variable_tested,variable_description,mannwhitneyu_statistic,p_value,is_significant,n_successful,n_unsuccessful,median_successful,median_unsuccessful
+PRES-2024-DJT,30,cumulative_retail_flow_in_window,Cumulative Retail Flow,15755678.0,4.809308035983022e-305,True,11294,4500,3733.5,9778.5
+PRES-2024-DJT,30,cumulative_inst_flow_in_window,Cumulative Institutional Flow,16494788.5,5.477484907600267e-261,True,11294,4500,14597.0,64184.0
+PRES-2024-DJT,30,retail_flow_in_corrective_dir,Retail Flow in Corrective Direction,29364429.5,9.85947030626587e-53,True,11294,4500,-340.5,-4149.0
+PRES-2024-DJT,30,inst_flow_in_corrective_dir,Institutional Flow in Corrective Direction,29239516.5,1.1568190145825656e-49,True,11294,4500,0.0,-10564.0
+PRES-2024-DJT,60,cumulative_inst_flow_in_window,Cumulative Institutional Flow,15852947.5,5.915474584468813e-280,True,11405,4389,38689.0,185683.0
+PRES-2024-DJT,60,cumulative_retail_flow_in_window,Cumulative Retail Flow,15911015.0,2.4735715839709612e-276,True,11405,4389,7492.0,18231.0
+PRES-2024-DJT,60,retail_flow_in_corrective_dir,Retail Flow in Corrective Direction,28744531.0,1.670633189613802e-47,True,11405,4389,-653.0,-8087.0
+PRES-2024-DJT,60,inst_flow_in_corrective_dir,Institutional Flow in Corrective Direction,28678533.5,6.518891362613625e-46,True,11405,4389,0.0,-34228.0
+PRES-2024-KH,30,cumulative_inst_flow_in_window,Cumulative Institutional Flow,15958715.0,6.304243435004227e-300,True,10455,4853,14130.0,63162.0
+PRES-2024-KH,30,cumulative_retail_flow_in_window,Cumulative Retail Flow,16035015.5,1.0893153681878878e-294,True,10455,4853,2380.0,5950.0
+PRES-2024-KH,30,inst_flow_in_corrective_dir,Institutional Flow in Corrective Direction,23157285.5,3.315077421541708e-18,True,10455,4853,0.0,7325.0
+PRES-2024-KH,30,retail_flow_in_corrective_dir,Retail Flow in Corrective Direction,23234993.5,4.931540038990573e-17,True,10455,4853,105.0,2058.0
+PRES-2024-KH,60,cumulative_retail_flow_in_window,Cumulative Retail Flow,14775021.0,0.0,True,10783,4525,4930.0,12721.0
+PRES-2024-KH,60,cumulative_inst_flow_in_window,Cumulative Institutional Flow,15031749.0,2.1335738170628936e-308,True,10783,4525,36178.0,156660.0
+PRES-2024-KH,60,retail_flow_in_corrective_dir,Retail Flow in Corrective Direction,22360130.0,3.2909119833824756e-16,True,10783,4525,354.0,4189.0
+PRES-2024-KH,60,inst_flow_in_corrective_dir,Institutional Flow in Corrective Direction,22426510.5,2.859409966055627e-15,True,10783,4525,1021.0,21304.0
