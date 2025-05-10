@@ -19,7 +19,7 @@ Recent years have seen a growing interest in prediction markets for a wide range
 
 ## 2.1 Data Source and Preparation
 
-The supporting data for this exploration was collected using the Kalshi API, and includes various details about each trade taking place from October 4, 2024 to January 20, 2025 in the PRES-2024-DJT and PRES-2024-KH Kalshi event contract markets. Trades were segmented using a Dirichlet-Process Gaussian Mixture Model (GMM) on log(trade_size). The 'institutional' region of the GMM was defined as the union of its three largest components, with trades where $P(\text{institutional}) > 0.80$ being classified as institutional, trades where $P(\text{institutional}) < 0.20$ being classified as retail, and all other trades classified as uncertain and excluded from further analysis. For easier processing, the data was resampled into 1-minute time bars and stored in Parquet format for efficient analysis, with each time bar including the last price of the contract as well as institutional and retail net flows (defined as the sum of signed taker volume for each category).
+The supporting data for this exploration was collected using the [Kalshi API](https://www.kalshi.com/api) (Kalshi, 2025), and includes various details about each trade taking place from October 4, 2024 to January 20, 2025 in the PRES-2024-DJT and PRES-2024-KH Kalshi event contract markets. Trades were segmented using a Dirichlet-Process Gaussian Mixture Model (GMM) on log(trade_size). The 'institutional' region of the GMM was defined as the union of its three largest components, with trades where $P(\text{institutional}) > 0.80$ being classified as institutional, trades where $P(\text{institutional}) < 0.20$ being classified as retail, and all other trades classified as uncertain and excluded from further analysis. For easier processing, the data was resampled into 1-minute time bars and stored in Parquet format for efficient analysis, with each time bar including the last price of the contract as well as institutional and retail net flows (defined as the sum of signed taker volume for each category).
 
 ## 2.2 Defining Mispricing Events
 
@@ -96,3 +96,9 @@ The full-series predictive power between institutional flow and mispricing behav
 # Conclusion
 
 This analysis aimed to further understand retail and institutional behavior in the Kalshi prediction markets for the 2024 election, specifically the impact that retail and institutional trading has on price movement and the institutional role in correcting retail-driven mispricings. Overall, retail appears more influential in the KH market, while institutional impact seems more potent in the DJT, with retail impact scaling more aggressively. Despite this, both markets seemed largely resilient to trading activity from both groups. Additionally, while institutional participation rates post-mispricing are high, the role of institutions is far more complex than simple corrective trading, and is heavily dependent on factors such as mispricing definition. Despite this, several dominant trends emerged, such as the reluctance of institutions to trade in highly volatile or deviant markets, and some predictive power of institutional trading over mispricing behavior under certain conditions. Challenges included the lack of order book data and limited number of data points; despite these, we have gained a more nuanced and data-driven understanding of political prediction market microstructure. Further research avenues may include exploring the role of 'uncertain' trades, or incorporating order book data into the analysis.
+
+
+## References
+
+Data for this analysis were sourced from the Kalshi API (Kalshi, Inc., 2025).  
+Retrieved May 9, 2025 from https://www.kalshi.com/api
