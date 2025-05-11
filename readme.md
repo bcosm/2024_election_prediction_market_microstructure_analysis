@@ -21,7 +21,7 @@ The supporting data for this exploration was collected using the [Kalshi API](ht
 
 ## 2.2 Defining Mispricing Events
 
-We generally define mispricings as deviations of the 1-minute contract price from a 5-minute short-term moving average. In this analysis, we identify these events using the z-score of percentage deviation from the MA, with a z-score threshold of $2.0$ and a rolling window of 60 minutes for the standard deviation of these percentage changes. Additionally, using a simpler, $1.5\%$ MA deviation threshold was also explored.
+We generally define mispricings as deviations of the 1-minute contract price from a 5-minute short-term moving average. In this analysis, we identify these events using the z-score of percentage deviation from the MA, with a z-score threshold of $2.0$ and a rolling window of 60 minutes for the standard deviation of these percentage changes. Additionally, using a simpler, 1.5% MA deviation threshold was also explored.
 
 ## 2.3 Analytical Approaches
 
