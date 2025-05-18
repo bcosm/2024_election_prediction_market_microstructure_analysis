@@ -1,3 +1,8 @@
+## Data & Code Availability
+
+All CSV data files and supporting code used in this analysis, as well as the paper in .pdf format, are publicly available in the [currently open repository.](https://github.com/bcosm/2024_election_prediction_market_microstructure_analysis)
+
+
 # Trader Behavior and Market Dynamics in the 2024 U.S. Election Prediction Markets: An Analysis of Retail and Institutional Impact on Kalshi
 
 **Author:** Baz Cosmopoulos
