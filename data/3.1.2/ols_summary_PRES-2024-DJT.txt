@@ -1,0 +1,28 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 deltaP   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                  0.000
+Method:                 Least Squares   F-statistic:                     5.085
+Date:                Thu, 08 May 2025   Prob (F-statistic):            0.00619
+Time:                        22:14:09   Log-Likelihood:            -5.9647e+05
+No. Observations:              155807   AIC:                         1.193e+06
+Df Residuals:                  155804   BIC:                         1.193e+06
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const            -0.0002      0.029     -0.007      0.995      -0.057       0.056
+Retail        -2.843e-05    3.8e-05     -0.748      0.454      -0.000    4.61e-05
+Institutional  3.056e-06    9.6e-07      3.183      0.001    1.17e-06    4.94e-06
+==============================================================================
+Omnibus:                    55247.528   Durbin-Watson:                   2.613
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):         28065121.211
+Skew:                          -0.003   Prob(JB):                         0.00
+Kurtosis:                      68.750   Cond. No.                     3.05e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.05e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

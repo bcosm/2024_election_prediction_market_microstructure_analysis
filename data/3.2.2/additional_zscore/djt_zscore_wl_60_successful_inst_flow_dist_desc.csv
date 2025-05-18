@@ -1,0 +1,14 @@
+,inst_flow_in_corrective_dir
+count,3386.0
+mean,60056.850265800356
+std,483884.6187010466
+min,-6623751.0
+25%,-8350.0
+50%,0.0
+75%,57318.25
+max,5665044.0
+inst_flow_corrective_dir_non_zero_count,2933.0
+inst_flow_corrective_dir_positive_count,1683.0
+inst_flow_corrective_dir_negative_count,1250.0
+inst_flow_corrective_dir_pct_positive,0.49704666272888365
+inst_flow_corrective_dir_pct_negative,0.3691671588895452

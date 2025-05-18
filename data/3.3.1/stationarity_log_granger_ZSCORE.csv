@@ -1,0 +1,9 @@
+series,p_value,adf_msg,diff_order
+PRES-2024-KH_deltaP_ZGap_d0,0.0,"ADF for PRES-2024-KH_deltaP_ZGap_d0: p=0.0000, n_obs=155776",0
+PRES-2024-KH_delta_RetailFlow_ZGap_d0,0.0,"ADF for PRES-2024-KH_delta_RetailFlow_ZGap_d0: p=0.0000, n_obs=155776",0
+PRES-2024-KH_delta_InstFlow_ZGap_d0,0.0,"ADF for PRES-2024-KH_delta_InstFlow_ZGap_d0: p=0.0000, n_obs=155776",0
+PRES-2024-KH_delta_ma_diff_zscore_ZGap_d0,0.0,"ADF for PRES-2024-KH_delta_ma_diff_zscore_ZGap_d0: p=0.0000, n_obs=62704",0
+PRES-2024-DJT_deltaP_ZGap_d0,0.0,"ADF for PRES-2024-DJT_deltaP_ZGap_d0: p=0.0000, n_obs=155807",0
+PRES-2024-DJT_delta_RetailFlow_ZGap_d0,0.0,"ADF for PRES-2024-DJT_delta_RetailFlow_ZGap_d0: p=0.0000, n_obs=155807",0
+PRES-2024-DJT_delta_InstFlow_ZGap_d0,0.0,"ADF for PRES-2024-DJT_delta_InstFlow_ZGap_d0: p=0.0000, n_obs=155807",0
+PRES-2024-DJT_delta_ma_diff_zscore_ZGap_d0,0.0,"ADF for PRES-2024-DJT_delta_ma_diff_zscore_ZGap_d0: p=0.0000, n_obs=68310",0
